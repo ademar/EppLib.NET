@@ -94,8 +94,12 @@ namespace EppLib
         public byte[] Read()
         {
             var lenghtBytes = new byte[4];
+            int read = 0;
 
-            stream.Read(lenghtBytes, 0, 4);
+            while (read < 4)
+            {
+                read = read + stream.Read(lenghtBytes, read, 4 - read);
+            }
 
             Array.Reverse(lenghtBytes);
 

@@ -118,6 +118,27 @@ namespace EppLib.Entities
                             }
                         }
                     }
+
+                    var hostAttrNodes = nsNode.SelectNodes("domain:hostAttr", namespaces);
+
+                    if (hostAttrNodes != null)
+                    {
+                        foreach (XmlNode hostAttrNode in hostAttrNodes)
+                        {
+                            if (hostAttrNode != null)
+                            {
+                                var hostNames = hostAttrNode.SelectNodes("domain:hostName", namespaces);
+
+                                if (hostNames != null)
+                                {
+                                    foreach (XmlNode hostName in hostNames)
+                                    {
+                                        Domain.NameServers.Add(hostName.InnerText);
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
 
 
