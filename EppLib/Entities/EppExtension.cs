@@ -27,9 +27,26 @@ namespace EppLib.Entities
 			return doc.CreateElement(qualifiedName, Namespace);
         }
 
+        private XmlElement CreateElement(XmlDocument doc, string qualifiedName, string namespaceURI)
+        {
+            return doc.CreateElement(qualifiedName, namespaceURI);
+        }
+
         protected XmlElement AddXmlElement(XmlDocument doc, XmlElement containingElement, String tagName, String value)
         {
             var xml_element = CreateElement(doc, tagName);
+
+            if (!string.IsNullOrEmpty(value))
+            {
+                xml_element.AppendChild(doc.CreateTextNode(value));
+            }
+            containingElement.AppendChild(xml_element);
+            return xml_element;
+        }
+
+        protected XmlElement AddXmlElement(XmlDocument doc, XmlElement containingElement, String tagName, String value, string namespaceUri)
+        {
+            var xml_element = CreateElement(doc, tagName, namespaceUri);
 
             if (!string.IsNullOrEmpty(value))
             {

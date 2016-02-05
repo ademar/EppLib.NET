@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <response>
+    <result code="1001">
+      <msg>Command completed successfully; action pending</msg>
+    </result>
+    <resData>
+      <r:releasePending xmlns:r="http://www.nominet.org.uk/epp/xml/std-release-1.0">
+        Your request for a registrar change has resulted in a handshake
+        request to the receiving tag. The receiving tag has up to 5 days to respond, after
+        which the request will be expired. You will be notified of the success or
+        failure of the registrar change.
+      </r:releasePending>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>54322-XYZ</svTRID>
+    </trID>
+  </response>
+</epp>

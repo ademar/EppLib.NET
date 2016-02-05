@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/epp-1.0 epp-1.0.xsd">
+	<response>
+		<result code="1301">
+			<msg>Command completed successfully; ack to dequeue</msg>
+		</result>
+		<msgQ count="1" id="23261084">
+			<qDate>2014-09-16T15:42:42Z</qDate>
+			<msg>Domains Released Notification</msg>
+		</msgQ>
+		<resData>
+			<n:relData xmlns:n="http://www.nominet.org.uk/epp/xml/std-notifications-1.2" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-notifications-1.2 std-notifications-1.2.xsd">
+				<n:accountId moved="N">59840089</n:accountId>
+				<n:from>REGISTRAR1</n:from>
+				<n:registrarTag>REGISTRAR2</n:registrarTag>
+				<n:domainListData noDomains="1" xmlns:n="http://www.nominet.org.uk/epp/xml/std-notifications-1.2" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-notifications-1.2 std-notifications-1.2.xsd">
+					<n:domainName>testing.co.uk</n:domainName>
+				</n:domainListData>
+			</n:relData>
+		</resData>
+		<trID>
+			<clTRID>ABC-12345</clTRID>
+      <svTRID>54322-XYZ</svTRID>
+		</trID>
+	</response>
+</epp>

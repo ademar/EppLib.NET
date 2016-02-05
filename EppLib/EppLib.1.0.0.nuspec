@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>EppLib</id>
+        <version>1.0.0</version>
+        <authors>Code Maker Inc. and Contributors</authors>
+        <owners>ademar</owners>
+        <licenseUrl>https://github.com/ademar/EppLib.NET/blob/master/COPYING</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>EppLib.NET provides a library that makes easy for registrars to interact with registries implementing the EPP protocol.
+
+Our library is a complete implementation of the EPP specification. Have a look at the How to section for code examples and recipes.
+
+    We now include EPP extensions for CIRA (the .CA registry), Nominet (the .UK registry) and IIS (the .SE registry).</description>
+        <summary>EppLib.NET is a .NET library implementing the Extensible Provisioning Protocol (EPP)</summary>
+    </metadata>
+    <files>
+        <file src="bin\Debug\EppLib.dll" target="lib\EppLib.dll" />
+    </files>
+</package>

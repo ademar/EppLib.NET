@@ -11,6 +11,8 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
+using System.Security.Authentication;
 using System.Xml;
 using EppLib.Entities;
 
@@ -32,9 +34,9 @@ namespace EppLib
 		/// <summary>
 		/// Connects to the registry end point
 		/// </summary>
-		public void Connect()
+        public void Connect(SslProtocols sslProtocols = SslProtocols.Tls)
 		{
-			transport.Connect();
+            transport.Connect(sslProtocols);
 			transport.Read();
 
 		}

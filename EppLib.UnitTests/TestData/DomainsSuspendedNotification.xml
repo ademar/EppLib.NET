@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/epp-1.0 epp-1.0.xsd">
+  <response>
+    <result code="1301">
+      <msg>Command completed successfully; ack to dequeue</msg>
+    </result>
+    <msgQ count="2" id="1">
+      <qDate>2008-04-30T13:39:13Z</qDate>
+      <msg>Domains Suspended Notification</msg>
+    </msgQ>
+    <resData>
+      <n:suspData
+       xmlns:n="http://www.nominet.org.uk/epp/xml/std-notifications-1.1"
+       xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-notifications-1.1 
+		std-notifications-1.1.xsd">
+        <n:reason>Data Quality</n:reason>
+        <n:cancelDate>2009-12-12T00:00:13Z</n:cancelDate>
+        <n:domainListData noDomains="2">
+          <n:domainName>epp-example1.co.uk</n:domainName>
+          <n:domainName>epp-example2.co.uk</n:domainName>
+        </n:domainListData>
+      </n:suspData>
+    </resData>
+    <trID>
+      <clTRID>EPP-ABC-12345</clTRID>
+      <svTRID>203355</svTRID>
+    </trID>
+  </response>
+</epp>

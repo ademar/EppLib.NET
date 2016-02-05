@@ -15,6 +15,7 @@ using System;
 using System.Net.Sockets;
 
 using System.Text;
+using System.Threading;
 using System.Xml;
 /**/
 using System.Security.Authentication;
@@ -46,12 +47,12 @@ namespace EppLib
         private readonly bool loggingEnabled;
         private readonly X509Certificate clientCertificate;
 
-        public TcpTransport(string host, int port, X509Certificate clientCertificate, bool loggingEnabled = false, int ReadTimeout = Timeout.Infinite, int WriteTimeout = Timeout.Infinite)
+        public TcpTransport(string host, int port, X509Certificate clientCertificate, bool loggingEnabled = false, int readTimeout = Timeout.Infinite, int writeTimeout = Timeout.Infinite)
         {
             EPP_REGISTRY_COM = host;
             PORT = port;
-            READ_TIMEOUT = ReadTimeout;
-            WRITE_TIMEOUT = WriteTimeout;
+            READ_TIMEOUT = readTimeout;
+            WRITE_TIMEOUT = writeTimeout;
             this.loggingEnabled = loggingEnabled;
             this.clientCertificate = clientCertificate;
         }
@@ -59,7 +60,7 @@ namespace EppLib
         /// <summary>
         /// Connect to the registry end point
         /// </summary>
-        public void Connect()
+        public void Connect(SslProtocols sslProtocols)
         {
             var client = new TcpClient(EPP_REGISTRY_COM, PORT);
 
@@ -73,7 +74,7 @@ namespace EppLib
             {
                 var clientCertificates = new X509CertificateCollection {clientCertificate};
 
-                stream.AuthenticateAsClient(EPP_REGISTRY_COM, clientCertificates, SslProtocols.Ssl3, false);
+                stream.AuthenticateAsClient(EPP_REGISTRY_COM, clientCertificates, sslProtocols, false);
             }
             else
             {

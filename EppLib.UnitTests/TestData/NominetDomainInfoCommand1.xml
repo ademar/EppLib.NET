@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/epp-1.0 epp-1.0.xsd">
+  <response>
+    <result code="1000">
+      <msg>Command completed successfully</msg>
+    </result>
+    <resData>
+      <domain:infData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+        <domain:name>avinou-cream.co.uk</domain:name>
+        <domain:roid>47704265-UK</domain:roid>
+        <domain:registrant>A14A270D56B95AD5</domain:registrant>
+        <domain:ns>
+          <domain:hostObj>ns1.ekmdomains.net.</domain:hostObj>
+          <domain:hostObj>ns2.ekmdomains.net.</domain:hostObj>
+          <domain:hostObj>ns3.ekmdomains.net.</domain:hostObj>
+        </domain:ns>
+        <domain:clID>EKMSYSTEMS</domain:clID>
+        <domain:crID>"domains@ekmsyst</domain:crID>
+        <domain:crDate>2010-11-08T12:10:21</domain:crDate>
+        <domain:upID>EPP-EKM-EPP-SYST</domain:upID>
+        <domain:upDate>2013-12-23T16:47:09</domain:upDate>
+        <domain:exDate>2016-11-08T12:10:21</domain:exDate>
+      </domain:infData>
+    </resData>
+    <extension>
+      <domain-nom-ext:infData xmlns:domain-nom-ext="http://www.nominet.org.uk/epp/xml/domain-nom-ext-1.2" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/domain-nom-ext-1.2 domain-nom-ext-1.2.xsd">
+        <domain-nom-ext:reg-status>Registered until expiry date.</domain-nom-ext:reg-status>
+        <domain-nom-ext:auto-bill>30</domain-nom-ext:auto-bill>
+      </domain-nom-ext:infData>
+      <warning:ignored-field field-name="domain:authInfo" xmlns:warning="http://www.nominet.org.uk/epp/xml/std-warning-1.1" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-warning-1.1 std-warning-1.1.xsd">
+        Field 'authInfo' found; this field has been ignored.
+      </warning:ignored-field>
+      <warning:truncated-field field-name="domain:crID" xmlns:warning="http://www.nominet.org.uk/epp/xml/std-warning-1.1" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-warning-1.1 std-warning-1.1.xsd">
+        Full entry is '"domains@ekmsystems.co.uk" &lt;domains@ekmsystems.co.uk&gt;'.
+      </warning:truncated-field>
+      <warning:truncated-field field-name="domain:upID" xmlns:warning="http://www.nominet.org.uk/epp/xml/std-warning-1.1" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-warning-1.1 std-warning-1.1.xsd">
+        Full entry is 'EPP-EKM-EPP-SYSTEM'.
+      </warning:truncated-field>
+    </extension>
+    <trID>
+      <clTRID>EKM-EPP-SYSTEM</clTRID>
+      <svTRID>3757170882</svTRID>
+    </trID>
+  </response>
+</epp>

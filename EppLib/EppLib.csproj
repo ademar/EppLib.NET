@@ -13,6 +13,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -64,6 +67,14 @@
     <Compile Include="Extensions\Iis\IisDomainUpdate.cs" />
     <Compile Include="Extensions\Iis\IisDomainUpdateExtension.cs" />
     <Compile Include="Extensions\Iis\IisExtensionBase.cs" />
+    <Compile Include="Extensions\Nominet\ContactInfo\NominetDataQualityExtension.cs" />
+    <Compile Include="Extensions\Nominet\DomainCheck\NominetDomainCheck.cs" />
+    <Compile Include="Extensions\Nominet\DomainCheck\NominetDomainCheckExtension.cs" />
+    <Compile Include="Extensions\Nominet\NominetDirectRightsExtensionBase.cs" />
+    <Compile Include="Extensions\Nominet\NominetDomainExtensionBase.cs" />
+    <Compile Include="Extensions\Nominet\Notifications\AbuseNotification.cs" />
+    <Compile Include="Extensions\Nominet\Notifications\DomainCancellationNotification.cs" />
+    <Compile Include="Extensions\Nominet\Notifications\DomainsSuspendedNotification.cs" />
     <Compile Include="Extensions\Nominet\Notifications\HandshakeRejectedNotification.cs" />
     <Compile Include="Extensions\Nominet\Notifications\DomainsReleasedNotification.cs" />
     <Compile Include="Extensions\Nominet\Notifications\ReferralRejecteNotification.cs" />
@@ -171,7 +182,6 @@
     <Compile Include="Extensions\Nominet\DomainCreate\NominetDomainCreate.cs" />
     <Compile Include="Extensions\Nominet\DomainCreate\NominetDomainCreateExtension.cs" />
     <Compile Include="Extensions\Nominet\DomainInfo\NominetDomainInfoResponse.cs" />
-    <Compile Include="Extensions\Nominet\NominetDomainExtensionBase.cs" />
     <Compile Include="Extensions\Nominet\DomainUpdate\NominetDomainUpdate.cs" />
     <Compile Include="Extensions\Nominet\DomainUpdate\NominetDomainUpdateExtension.cs" />
     <Compile Include="Properties\Settings.Designer.cs">

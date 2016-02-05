@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/epp-1.0 epp-1.0.xsd">
+  <response>
+    <result code="1301">
+      <msg>Command completed successfully; ack to dequeue</msg>
+    </result>
+    <msgQ count="1" id="23140966">
+      <qDate>2014-09-05T09:54:24Z</qDate>
+      <msg>Contact deleted notification</msg>
+    </msgQ>
+    <resData>
+      <n:contactDelData xmlns:n="http://www.nominet.org.uk/epp/xml/std-notifications-1.2" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-notifications-1.2 std-notifications-1.2.xsd">
+        <n:contactId>6NV79JZY8INGEWJQ</n:contactId>
+        <n:roid>60079333-UK</n:roid>
+      </n:contactDelData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>54322-XYZ</svTRID>
+    </trID>
+  </response>
+</epp>

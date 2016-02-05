@@ -38,7 +38,7 @@ namespace EppLib.Extensions.Nominet.DomainInfo
 		protected override void ProcessExtensionNode(XmlDocument doc, XmlNamespaceManager namespaces)
 		{
 			namespaces.AddNamespace("domain", "urn:ietf:params:xml:ns:domain-1.0");
-			namespaces.AddNamespace("domain-nom-ext", "http://www.nominet.org.uk/epp/xml/domain-nom-ext-1.0");
+			namespaces.AddNamespace("domain-nom-ext", "http://www.nominet.org.uk/epp/xml/domain-nom-ext-1.2");
 
 			var children = doc.SelectSingleNode("/ns:epp/ns:response/ns:extension/domain-nom-ext:infData", namespaces);
 			

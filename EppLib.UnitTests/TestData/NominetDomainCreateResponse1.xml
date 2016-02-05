@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/epp-1.0 epp-1.0.xsd">
+	<response>
+		<result code="1000">
+			<msg>Command completed successfully</msg>
+		</result>
+		<resData>
+			<domain:creData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+				<domain:name>example.co.uk</domain:name>
+				<domain:crDate>2015-11-12T09:31:06</domain:crDate>
+				<domain:exDate>2016-11-12T09:31:06</domain:exDate>
+			</domain:creData>
+		</resData>
+		<extension>
+			<warning:ignored-field field-name="domain:authInfo" xmlns:warning="http://www.nominet.org.uk/epp/xml/std-warning-1.1" xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/std-warning-1.1 std-warning-1.1.xsd">
+        Field 'authInfo' found; this field has been ignored.
+			</warning:ignored-field>
+		</extension>
+		<trID>
+			<clTRID>ABC-12345</clTRID>
+			<svTRID>54321-XYZ</svTRID>
+		</trID>
+	</response>
+</epp>

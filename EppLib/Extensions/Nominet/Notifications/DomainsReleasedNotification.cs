@@ -18,10 +18,10 @@ namespace EppLib.Extensions.Nominet.Notifications
 		{
 			base.ProcessDataNode(doc, namespaces);
 
-			namespaces.AddNamespace("n", "http://www.nominet.org.uk/epp/xml/std-notifications-1.0");
+			namespaces.AddNamespace("n", "http://www.nominet.org.uk/epp/xml/std-notifications-1.2");
 			var domainReleasedNode = doc.SelectSingleNode("/ns:epp/ns:response/ns:resData/n:relData", namespaces);
 
-			if (domainReleasedNode != null)
+            if (domainReleasedNode != null)
 			{
 				var accountNode = domainReleasedNode.SelectSingleNode("n:accountId", namespaces);
 				if (accountNode != null)

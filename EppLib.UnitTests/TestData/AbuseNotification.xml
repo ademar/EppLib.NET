@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/epp-1.0
+ epp-1.0.xsd">
+  <response>
+    <result code="1301">
+      <msg>Command completed successfully; ack to dequeue</msg>
+    </result>
+    <msgQ count="10" id="12345">
+      <qDate>2007-09-26T07:31:30</qDate>
+      <msg>Domain Activity Notification</msg>
+    </msgQ>
+    <resData>
+      <abuse-feed:infData
+       xmlns:abuse-feed="http://www.nominet.org.uk/epp/xml/nom-abuse-feed-1.0"
+       xsi:schemaLocation="http://www.nominet.org.uk/epp/xml/nom-abuse-feed-1.0
+        nom-abuse-feed-1.0.xsd">
+        <abuse-feed:key>phished.co.uk</abuse-feed:key>
+        <abuse-feed:activity>phishing</abuse-feed:activity>
+        <abuse-feed:source>Netcraft</abuse-feed:source>
+        <abuse-feed:hostname>www.youve.been.phished.co.uk</abuse-feed:hostname>
+        <abuse-feed:url>http://www.youve.been.phished.co.uk/give/us/your/money.htm</abuse-feed:url>
+        <abuse-feed:date>2011-03-01T11:44:01</abuse-feed:date>
+        <abuse-feed:ip>213.135.134.24</abuse-feed:ip>
+        <abuse-feed:nameserver>ns0.crooked.dealings.net</abuse-feed:nameserver>
+        <abuse-feed:dnsAdmin>hostmaster@crooked.dealings.net</abuse-feed:dnsAdmin>
+        <abuse-feed:target>paypal</abuse-feed:target>
+        <abuse-feed:wholeDomain>Y</abuse-feed:wholeDomain>
+      </abuse-feed:infData>
+    </resData>
+    <trID>
+      <clTRID>EPP-12345C-8BF-4CAA-A944-2F0EFCD37D9E</clTRID>
+      <svTRID>1254234</svTRID>
+    </trID>
+  </response>
+</epp>

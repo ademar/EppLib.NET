@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><epp xmlns="urn:ietf:params:xml:ns:epp-1.0"><command><update><r:release xmlns:r="http://www.nominet.org.uk/epp/xml/std-release-1.0"><r:domainName>epp-example.co.uk</r:domainName><r:registrarTag>EXAMPLE-TAG</r:registrarTag></r:release></update><clTRID>ABC-12345</clTRID></command></epp>

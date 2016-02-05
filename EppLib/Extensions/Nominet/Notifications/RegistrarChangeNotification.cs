@@ -19,7 +19,7 @@ namespace EppLib.Extensions.Nominet.Notifications
 		{
 			base.ProcessDataNode(doc, namespaces);
 
-			namespaces.AddNamespace("n", "http://www.nominet.org.uk/epp/xml/std-notifications-1.0");
+			namespaces.AddNamespace("n", "http://www.nominet.org.uk/epp/xml/std-notifications-1.2");
 			var registrarChangeNode = doc.SelectSingleNode("/ns:epp/ns:response/ns:resData/n:rcData", namespaces);
 
 			if (registrarChangeNode != null)
