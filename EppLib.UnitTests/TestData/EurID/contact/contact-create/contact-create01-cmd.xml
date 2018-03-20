@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <create>
+      <contact:create xmlns:contact='urn:ietf:params:xml:ns:contact-1.0'>
+        <contact:id>client_id001</contact:id>
+        <contact:postalInfo type='loc'>
+          <contact:name>Teki-Sue Porter</contact:name>
+          <contact:org>Tech Support Unlimited</contact:org>
+          <contact:addr>
+            <contact:street>Main Street 122</contact:street>
+            <contact:city>Nowhere City</contact:city>
+            <contact:pc>1234</contact:pc>
+            <contact:cc>BE</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:voice>+32.123456789</contact:voice>
+        <contact:fax>+32.123456790</contact:fax>
+        <contact:email>nobody@example.eu</contact:email>
+        <contact:authInfo>
+          <contact:pw></contact:pw>
+        </contact:authInfo>
+      </contact:create>
+    </create>
+    <extension>
+      <contact-ext:create xmlns:contact-ext='http://www.eurid.eu/xml/epp/contact-ext-1.1'>
+        <contact-ext:type>tech</contact-ext:type>
+        <contact-ext:lang>en</contact-ext:lang>
+      </contact-ext:create>
+    </extension>
+    <clTRID>contact-create01</clTRID>
+  </command>
+</epp>

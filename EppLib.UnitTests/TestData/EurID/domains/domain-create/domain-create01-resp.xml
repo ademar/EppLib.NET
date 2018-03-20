@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:creData>
+                <domain:name>domain-0002.eu</domain:name>
+                <domain:crDate>2014-09-13T13:12:51.808Z</domain:crDate>
+                <domain:exDate>2015-09-13T21:59:59.999Z</domain:exDate>
+            </domain:creData>
+        </resData>
+        <trID>
+            <svTRID>eefcf128c-c99a-48f3-baae-bf9c45fca5ca</svTRID>
+        </trID>
+    </response>
+</epp>

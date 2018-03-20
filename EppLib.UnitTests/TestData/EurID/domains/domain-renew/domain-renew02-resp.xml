@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain-ext="http://www.eurid.eu/xml/epp/domain-ext-1.1" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:renData>
+                <domain:name>extend-term9y-removedeletiondate-1349786341.eu</domain:name>
+                <domain:exDate>2023-09-13T21:59:59.999Z</domain:exDate>
+            </domain:renData>
+        </resData>
+        <extension>
+            <domain-ext:renData>
+                <domain-ext:removedDeletionDate/>
+            </domain-ext:renData>
+        </extension>
+        <trID>
+            <clTRID>Extend domain for 8y,deletion date is removed (case 02)</clTRID>
+            <svTRID>ef7f08296-466d-4946-bd06-c1b2cd6dc365</svTRID>
+        </trID>
+    </response>
+</epp>

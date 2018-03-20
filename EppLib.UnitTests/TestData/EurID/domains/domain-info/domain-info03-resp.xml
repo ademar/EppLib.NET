@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="2303">
+            <msg>Object does not exist</msg>
+            <extValue>
+                <value>
+                    <domain:name>some-domain-info-1349951245.eu</domain:name>
+                </value>
+                <reason>The domain name could not be found.</reason>
+            </extValue>
+        </result>
+        <trID>
+            <clTRID>domain-info</clTRID>
+            <svTRID>e8a14b497-d1c2-4742-a9e4-53aa56469e15</svTRID>
+        </trID>
+    </response>
+</epp>

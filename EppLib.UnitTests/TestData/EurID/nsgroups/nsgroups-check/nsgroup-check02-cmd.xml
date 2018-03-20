@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <check>
+      <nsgroup:check xmlns:nsgroup='http://www.eurid.eu/xml/epp/nsgroup-1.1'>
+        <nsgroup:name>nsg-a-1349684934</nsgroup:name>
+        <nsgroup:name>nsg-b-1349684934</nsgroup:name>
+        <nsgroup:name>my-ns-group</nsgroup:name>
+        <nsgroup:name>café</nsgroup:name>
+      </nsgroup:check>
+    </check>
+    <clTRID>nsgroup-check02</clTRID>
+  </command>
+</epp>

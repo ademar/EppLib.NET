@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>domein-0002.eu</domain:name>
+        <domain:period unit='y'>1</domain:period>
+        <domain:ns>
+          <domain:hostAttr>
+            <domain:hostName>a.domein-0002.eu</domain:hostName>
+            <domain:hostAddr>1.2.3.4</domain:hostAddr>
+          </domain:hostAttr>
+        </domain:ns>
+        <domain:registrant>c160</domain:registrant>
+        <domain:contact type='billing'>c10</domain:contact>
+        <domain:contact type='tech'>c159</domain:contact>
+        <domain:authInfo>
+          <domain:pw> </domain:pw>
+        </domain:authInfo>
+      </domain:create>
+    </create>
+    <extension>
+      <secDNS:create xmlns:secDNS="urn:ietf:params:xml:ns:secDNS-1.1">
+        <secDNS:keyData>
+          <secDNS:flags>257</secDNS:flags>
+          <secDNS:protocol>3</secDNS:protocol>
+          <secDNS:alg>7</secDNS:alg>
+          <secDNS:pubKey>AwEAAaPjgcfoxJ1C5lJu+S39YO8jQI7llpNtbcl9TpUW6y5WwSnRMgX4 jVQ9OkD+aoee3QB3AHXLdufvem66fkxgM1c=</secDNS:pubKey>
+        </secDNS:keyData>
+        <secDNS:keyData>
+          <secDNS:flags>256</secDNS:flags>
+          <secDNS:protocol>3</secDNS:protocol>
+          <secDNS:alg>7</secDNS:alg>
+          <secDNS:pubKey>AwEAAb3LKIHxMWmKRYXhi0Rl+x8dwmQbsr46ArbxgpPm1fPIyCgJrxGx NzmHsxDKjP9oU4j9jwXJ2GfVlSSj+TLx3lk=</secDNS:pubKey>
+        </secDNS:keyData>
+      </secDNS:create>
+    </extension>
+    <clTRID>domain-create-dnsSec11</clTRID>
+  </command>
+</epp>

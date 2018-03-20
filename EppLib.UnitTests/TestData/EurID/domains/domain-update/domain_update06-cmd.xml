@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update>
+      <domain:update xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>some-domain006.eu</domain:name>
+        <domain:rem>
+          <domain:ns>
+            <domain:hostAttr>
+              <domain:hostName>ns1.some-domain006.eu</domain:hostName>
+              <domain:hostAddr ip='v6'>0:0:0:0:0:0:c001:380a</domain:hostAddr>
+            </domain:hostAttr>
+            <domain:hostAttr>
+              <domain:hostName>ns2.some-domain.com</domain:hostName>
+            </domain:hostAttr>
+          </domain:ns>
+        </domain:rem>
+      </domain:update>
+    </update>
+  </command>
+</epp>

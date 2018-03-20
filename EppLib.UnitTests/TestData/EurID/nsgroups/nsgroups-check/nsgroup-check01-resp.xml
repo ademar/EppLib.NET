@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:nsgroup="http://www.eurid.eu/xml/epp/nsgroup-1.1">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <nsgroup:chkData>
+                <nsgroup:cd>
+                    <nsgroup:name avail="true">dfhrgytkhbyhsasedcvne</nsgroup:name>
+                </nsgroup:cd>
+            </nsgroup:chkData>
+        </resData>
+        <trID>
+            <clTRID>nsgroup-check01</clTRID>
+            <svTRID>eb001ebc6-1b30-46cc-bc2e-a68cbd095223</svTRID>
+        </trID>
+    </response>
+</epp>

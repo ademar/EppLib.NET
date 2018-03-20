@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <info>
+      <domain:info xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+        <domain:name>domain-0007</domain:name>
+        <domain:authInfo>
+          <domain:pw>XXXX-2MRN-MRAP-MXVR</domain:pw>
+        </domain:authInfo>
+      </domain:info>
+    </info>
+    <clTRID>domain-info</clTRID>
+  </command>
+</epp>

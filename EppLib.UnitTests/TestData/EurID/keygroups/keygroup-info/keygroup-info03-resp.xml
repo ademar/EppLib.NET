@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:keygroup="http://www.eurid.eu/xml/epp/keygroup-1.1">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <keygroup:infData>
+                <keygroup:name>keygroup-full</keygroup:name>
+                <keygroup:keyData>
+                    <keygroup:flags>257</keygroup:flags>
+                    <keygroup:protocol>3</keygroup:protocol>
+                    <keygroup:alg>7</keygroup:alg>
+                    <keygroup:pubKey>AwEAAdrZUdSYSlOUSPqL6BohnJt5qCzVxNTZwhmjZBeMTu4abOMdBuwRG9WCnbmfv7SrXRe4qrRPaqS5SYlEulxmi/v02zhTm5rTdJv0JRv/104hkR+2FfYAfEXpq//Y9Qu+MZyb4TSd0LsZaN4siZ+MtHWj9tRU9m+xLU/drgz0pZ3T</keygroup:pubKey>
+                </keygroup:keyData>
+                <keygroup:keyData>
+                    <keygroup:flags>256</keygroup:flags>
+                    <keygroup:protocol>3</keygroup:protocol>
+                    <keygroup:alg>7</keygroup:alg>
+                    <keygroup:pubKey>AwEAAc7CI/9hE5joz6gD207+xb35OkEjwYoqBi0r2BnLzcuUPhmn1yivxF3QREEKlFnyzEnfglOqm2hbnE/2881qHMVDrEzyR6huPOuTNMNusko7FPgm7+yTBa5aSFCE/h988G6LQ0maKXHF82MV+sd+H8Js74DFRdSbNV1GStMxT4Lj</keygroup:pubKey>
+                </keygroup:keyData>
+                <keygroup:keyData>
+                    <keygroup:flags>256</keygroup:flags>
+                    <keygroup:protocol>3</keygroup:protocol>
+                    <keygroup:alg>7</keygroup:alg>
+                    <keygroup:pubKey>AwEAAbXYFoGoDNgTY8ralYgCMwOmZNdG00yfyGJ5PojCAKWTskWGdASORHzYwuxzg/mpF2cCs7LG8ZsVO15W0UOY1JZZ2shWEWq598yqDr5MvH34F5aGoDiXEuoT180BEZZnTjRrD5CA9ZmJqm6CX05diGpN7McKM909EclYIpnn0ydf</keygroup:pubKey>
+                </keygroup:keyData>
+                <keygroup:keyData>
+                    <keygroup:flags>257</keygroup:flags>
+                    <keygroup:protocol>3</keygroup:protocol>
+                    <keygroup:alg>7</keygroup:alg>
+                    <keygroup:pubKey>AwEAAdPt8/+PqYJWaj40ub1sTXo0L3T7iPaHxs+U/DT5XBoGFQgQLZun8VpFhca3QsUkymjuVkBS+27yXDy8Bp+r0oGTzWA5TjWX68wZGtvpNbvsSY4EZSjNxn28632oHjvIjSuVXJlzV+YxWdOapsBPzetCPoLjxpi0hZ+dGFhhYMvx</keygroup:pubKey>
+                </keygroup:keyData>
+            </keygroup:infData>
+        </resData>
+        <trID>
+            <clTRID>Keygroup Info</clTRID>
+            <svTRID>e483b09f3-4b00-42dc-b1e0-79d70dc275f1</svTRID>
+        </trID>
+    </response>
+</epp>

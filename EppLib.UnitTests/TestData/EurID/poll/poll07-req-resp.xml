@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:poll="http://www.eurid.eu/xml/epp/poll-1.1">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="9938" id="e535d011-baa1-42d8-b0e6-5aec5edaa49e">
+            <qDate>2014-09-14T08:24:55.726Z</qDate>
+            <msg>DynUpdate completed for domain name: secure-domain.eu</msg>
+        </msgQ>
+        <resData>
+            <poll:pollData>
+                <poll:context>DYNUPDATE</poll:context>
+                <poll:objectType>DOMAIN</poll:objectType>
+                <poll:object>secure-domain.eu</poll:object>
+                <poll:objectUnicode>secure-domain.eu</poll:objectUnicode>
+                <poll:action>DONE_TEST</poll:action>
+                <poll:code>1000</poll:code>
+            </poll:pollData>
+        </resData>
+        <trID>
+            <clTRID>poll07-req</clTRID>
+            <svTRID>e8d1b6999-f82a-4a1e-bfd2-df78734dc8e6</svTRID>
+        </trID>
+    </response>
+</epp>

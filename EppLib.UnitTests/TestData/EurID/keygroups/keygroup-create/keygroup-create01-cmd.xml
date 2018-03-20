@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <create xmlns:keygroup="http://www.eurid.eu/xml/epp/keygroup-1.1">
+      <keygroup:create>
+        <keygroup:name>keygroup-135089830472</keygroup:name>
+      </keygroup:create>
+    </create>
+    <clTRID>keygroup-create01</clTRID>
+  </command>
+</epp>

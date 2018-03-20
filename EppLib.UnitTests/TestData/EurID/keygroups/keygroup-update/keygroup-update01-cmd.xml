@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update xmlns:keygroup="http://www.eurid.eu/xml/epp/keygroup-1.1">
+      <keygroup:update>
+        <keygroup:name>keygroup-1350898304275</keygroup:name>
+      </keygroup:update>
+    </update>
+    <clTRID>Keygroup update - remove all keys</clTRID>
+  </command>
+</epp>

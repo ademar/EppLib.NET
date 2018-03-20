@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update>
+      <domain:update xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>domain-dhmjwejkts.eu</domain:name>
+        <domain:add>
+          <domain:ns>
+            <domain:hostAttr>
+              <domain:hostName>ns1.domain-dhmjwejkts.eu</domain:hostName>
+              <domain:hostAddr ip='v4'>91.220.191.174</domain:hostAddr>
+            </domain:hostAttr>
+            <domain:hostAttr>
+              <domain:hostName>ns1.domain-dhmjwejkts.eu</domain:hostName>
+              <domain:hostAddr ip='v6'>2001:67c:40:1::174</domain:hostAddr>
+            </domain:hostAttr>
+            <domain:hostAttr>
+              <domain:hostName>ns2.domain-dhmjwejkts.eu</domain:hostName>
+              <domain:hostAddr ip='v4'>91.220.191.175</domain:hostAddr>
+              <domain:hostAddr ip='v6'>2001:67c:40:1::179</domain:hostAddr>
+            </domain:hostAttr>
+          </domain:ns>
+        </domain:add>
+      </domain:update>
+    </update>
+  </command>
+</epp>

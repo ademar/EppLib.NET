@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:poll="http://www.eurid.eu/xml/epp/poll-1.1">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="b023fc6a-aa54-422e-b61c-445ca1d8f48a">
+            <qDate>2014-09-14T11:36:16.882Z</qDate>
+            <msg>Domain name transferred away: transfer-away.eu</msg>
+        </msgQ>
+        <resData>
+            <poll:pollData>
+                <poll:context>TRANSFER</poll:context>
+                <poll:objectType>DOMAIN</poll:objectType>
+                <poll:object>transfer-away.eu</poll:object>
+                <poll:objectUnicode>transfer-away.eu</poll:objectUnicode>
+                <poll:action>AWAY</poll:action>
+                <poll:code>2306</poll:code>
+            </poll:pollData>
+        </resData>
+        <trID>
+            <clTRID>poll01-req</clTRID>
+            <svTRID>eaac419fd-be5e-4d54-b531-9680e2496567</svTRID>
+        </trID>
+    </response>
+</epp>

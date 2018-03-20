@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain-ext="http://www.eurid.eu/xml/epp/domain-ext-1.1" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:infData>
+                <domain:name>domain-0006.eu</domain:name>
+                <domain:roid>domain_0006_eu-EURID</domain:roid>
+                <domain:status s="ok"/>
+                <domain:registrant>c160</domain:registrant>
+                <domain:contact type="billing">c10</domain:contact>
+                <domain:contact type="tech">c159</domain:contact>
+                <domain:ns>
+                    <domain:hostAttr>
+                        <domain:hostName>ns1.domain-0006.eu</domain:hostName>
+                        <domain:hostAddr ip="v6">2001:db8:85a3:0:0:8a2e:370:7333</domain:hostAddr>
+                        <domain:hostAddr ip="v4">192.11.11.11</domain:hostAddr>
+                    </domain:hostAttr>
+                    <domain:hostAttr>
+                        <domain:hostName>ns1.other-domain.pt</domain:hostName>
+                    </domain:hostAttr>
+                </domain:ns>
+                <domain:clID>a987654</domain:clID>
+                <domain:crID>a987654</domain:crID>
+                <domain:crDate>2014-09-13T15:57:54.223Z</domain:crDate>
+                <domain:upID>a987654</domain:upID>
+                <domain:upDate>2014-09-13T15:57:54.000Z</domain:upDate>
+                <domain:exDate>2015-09-13T21:59:59.999Z</domain:exDate>
+            </domain:infData>
+        </resData>
+        <extension>
+            <domain-ext:infData>
+                <domain-ext:onHold>false</domain-ext:onHold>
+                <domain-ext:quarantined>false</domain-ext:quarantined>
+                <domain-ext:suspended>false</domain-ext:suspended>
+                <domain-ext:seized>false</domain-ext:seized>
+                <domain-ext:contact type="onsite">c163</domain-ext:contact>
+            </domain-ext:infData>
+        </extension>
+        <trID>
+            <svTRID>e572d3a23-d0fa-4e23-a3c5-02bd6351ad8b</svTRID>
+        </trID>
+    </response>
+</epp>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:poll="http://www.eurid.eu/xml/epp/poll-1.1">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="e0ade1eb-8dd2-42cc-a46b-fd02bab54ce4">
+            <qDate>2014-09-14T14:59:16.901Z</qDate>
+            <msg>Domain name quarantined: domain-poll-quarantine-02.eu</msg>
+        </msgQ>
+        <resData>
+            <poll:pollData>
+                <poll:context>DOMAIN</poll:context>
+                <poll:objectType>DOMAIN</poll:objectType>
+                <poll:object>domain-poll-quarantine-02.eu</poll:object>
+                <poll:objectUnicode>domain-poll-quarantine-02.eu</poll:objectUnicode>
+                <poll:action>QUARANTINED</poll:action>
+                <poll:code>1700</poll:code>
+            </poll:pollData>
+        </resData>
+        <trID>
+            <clTRID>poll03-req</clTRID>
+            <svTRID>edb5d6308-58ec-46fd-9eea-1706480a549e</svTRID>
+        </trID>
+    </response>
+</epp>

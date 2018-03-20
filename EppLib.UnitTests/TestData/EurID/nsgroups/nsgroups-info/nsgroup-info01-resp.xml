@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:idn="http://www.eurid.eu/xml/epp/idn-1.0" xmlns:nsgroup="http://www.eurid.eu/xml/epp/nsgroup-1.1">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <nsgroup:infData>
+                <nsgroup:name>nsgroup-1349428719</nsgroup:name>
+                <nsgroup:ns>ns6.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns9.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns2.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns5.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns8.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns7.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns1.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns4.пример.eu</nsgroup:ns>
+                <nsgroup:ns>ns3.пример.eu</nsgroup:ns>
+            </nsgroup:infData>
+        </resData>
+        <extension>
+            <idn:mapping>
+                <idn:name>
+                    <idn:ace>ns1.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns1.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns2.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns2.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns3.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns3.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns4.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns4.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns5.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns5.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns6.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns6.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns7.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns7.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns8.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns8.пример.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>ns9.xn--e1afmkfd.eu</idn:ace>
+                    <idn:unicode>ns9.пример.eu</idn:unicode>
+                </idn:name>
+            </idn:mapping>
+        </extension>
+        <trID>
+            <clTRID>nsgroup-info01</clTRID>
+            <svTRID>ec90db0bf-9cfa-4015-9140-0bd4423898bf</svTRID>
+        </trID>
+    </response>
+</epp>

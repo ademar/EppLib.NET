@@ -1,0 +1,29 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>domínio-0002</domain:name>
+        <domain:ns>
+          <domain:hostAttr>
+            <domain:hostName>a.alpha.al</domain:hostName>
+          </domain:hostAttr>
+          <domain:hostAttr>
+            <domain:hostName>b.bravo.bb</domain:hostName>
+          </domain:hostAttr>
+        </domain:ns>
+        <domain:registrant>c113</domain:registrant>
+        <domain:contact type='billing'>c10</domain:contact>
+        <domain:authInfo>
+          <domain:pw> </domain:pw>
+        </domain:authInfo>
+      </domain:create>
+    </create>
+    <extension>
+      <domain-ext:create xmlns:domain-ext='http://www.eurid.eu/xml/epp/domain-ext-1.1'>
+        <domain-ext:contact type='onsite'>c163</domain-ext:contact>
+        <domain-ext:contact type='reseller'>c164</domain-ext:contact>
+      </domain-ext:create>
+    </extension>
+  </command>
+</epp>

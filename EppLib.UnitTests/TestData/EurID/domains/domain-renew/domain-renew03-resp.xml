@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:renData>
+                <domain:name>extend-term2y-deletiondatenotremoved-1349786341.eu</domain:name>
+                <domain:exDate>2023-09-13T21:59:59.999Z</domain:exDate>
+            </domain:renData>
+        </resData>
+        <trID>
+            <clTRID>Extend domain for 8y,deletion date is not removed (case 03)</clTRID>
+            <svTRID>e297ace9f-cd97-46b5-957a-c440764e51bc</svTRID>
+        </trID>
+    </response>
+</epp>

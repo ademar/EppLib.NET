@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <create xmlns:keygroup="http://www.eurid.eu/xml/epp/keygroup-1.1">
+      <keygroup:create>
+        <keygroup:name>keygroup-1350898304165</keygroup:name>
+        <keygroup:keyData>
+          <keygroup:flags>256</keygroup:flags>
+          <keygroup:protocol>3</keygroup:protocol>
+          <keygroup:alg>7</keygroup:alg>
+          <keygroup:pubKey>AwEAAcTnEOkfH1FsT9EI2BmjMB83uDWXpSp57YHa0v6Xg60Usm3Y2Fct1emy+h0+uDstyUl5eILy9eO2eI67m5r0Lck=</keygroup:pubKey>
+        </keygroup:keyData>
+      </keygroup:create>
+    </create>
+    <clTRID>keygroup-create02</clTRID>
+  </command>
+</epp>

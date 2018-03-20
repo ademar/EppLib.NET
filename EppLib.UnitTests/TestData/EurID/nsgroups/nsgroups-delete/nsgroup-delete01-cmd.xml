@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <delete>
+      <nsgroup:delete xmlns:nsgroup='http://www.eurid.eu/xml/epp/nsgroup-1.1'>
+        <nsgroup:name>nsgroup-phenix</nsgroup:name>
+      </nsgroup:delete>
+    </delete>
+    <clTRID>nsgroup-delete01</clTRID>
+  </command>
+</epp>

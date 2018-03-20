@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <login>
+      <clID>a987654</clID>
+      <pw>pass123</pw>
+      <options>
+        <version>1.0</version>
+        <lang>en</lang>
+      </options>
+      <svcs>
+        <objURI>urn:ietf:params:xml:ns:domain-1.0</objURI>
+        <objURI>urn:ietf:params:xml:ns:contact-1.0</objURI>
+        <objURI>http://www.eurid.eu/xml/epp/nsgroup-1.1</objURI>
+        <objURI>http://www.eurid.eu/xml/epp/keygroup-1.1</objURI>
+        <objURI>http://www.eurid.eu/xml/epp/registrar-1.0</objURI>
+        <svcExtension>
+          <extURI>http://www.eurid.eu/xml/epp/authInfo-1.0</extURI>
+          <extURI>http://www.eurid.eu/xml/epp/contact-ext-1.1</extURI>
+          <extURI>http://www.eurid.eu/xml/epp/domain-ext-1.1</extURI>
+          <extURI>http://www.eurid.eu/xml/epp/idn-1.0</extURI>
+          <extURI>http://www.eurid.eu/xml/epp/dynUpdate-1.0</extURI>
+          <extURI>http://www.eurid.eu/xml/epp/poll-1.1</extURI>
+          <extURI>urn:ietf:params:xml:ns:secDNS-1.1</extURI>
+        </svcExtension>
+      </svcs>
+    </login>
+    <clTRID>login-example02</clTRID>
+  </command>
+</epp>

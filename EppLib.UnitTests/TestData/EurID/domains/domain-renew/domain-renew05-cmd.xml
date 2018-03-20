@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <renew>
+      <domain:renew xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>extend-term4y-reactivate-1349854088.eu</domain:name>
+        <domain:curExpDate>2015-09-13</domain:curExpDate>
+        <domain:period unit='y'>4</domain:period>
+      </domain:renew>
+    </renew>
+    <clTRID>Extend term for 4y a quarantine domain - reactivate (case 05)</clTRID>
+  </command>
+</epp>

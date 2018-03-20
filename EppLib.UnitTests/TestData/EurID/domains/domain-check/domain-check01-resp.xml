@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain-ext="http://www.eurid.eu/xml/epp/domain-ext-1.1" xmlns:idn="http://www.eurid.eu/xml/epp/idn-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:chkData>
+                <domain:cd>
+                    <domain:name avail="true">some-domain-info-0000000000.eu</domain:name>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">some-domain-info-1349951245.eu</domain:name>
+                    <domain:reason lang="en">in use</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">some-domain-info-1349951246.eu</domain:name>
+                    <domain:reason lang="en">quarantine</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">andalucia.eu</domain:name>
+                    <domain:reason lang="en">reserved</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">andalucía.eu</domain:name>
+                    <domain:reason lang="en">reserved</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">agias.eu</domain:name>
+                    <domain:reason lang="en">blocked</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">rey-españa.eu</domain:name>
+                    <domain:reason lang="en">blocked</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">20karat.eu</domain:name>
+                    <domain:reason lang="en">in use</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">crédit-suisse.eu</domain:name>
+                    <domain:reason lang="en">in use</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">bandit-corp.eu</domain:name>
+                    <domain:reason lang="en">suspended</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">court-order-seized.eu</domain:name>
+                    <domain:reason lang="en">seized</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="false">abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklm.eu</domain:name>
+                    <domain:reason lang="en">invalid domain name</domain:reason>
+                </domain:cd>
+            </domain:chkData>
+        </resData>
+        <extension>
+            <domain-ext:chkData>
+                <domain-ext:domain>
+                    <domain-ext:name>some-domain-info-1349951246.eu</domain-ext:name>
+                    <domain-ext:availableDate>2014-10-23T13:52:13.392Z</domain-ext:availableDate>
+                </domain-ext:domain>
+            </domain-ext:chkData>
+            <idn:mapping>
+                <idn:name>
+                    <idn:ace>xn--andaluca-i2a.eu</idn:ace>
+                    <idn:unicode>andalucía.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>xn--crdit-suisse-ceb.eu</idn:ace>
+                    <idn:unicode>crédit-suisse.eu</idn:unicode>
+                </idn:name>
+                <idn:name>
+                    <idn:ace>xn--rey-espaa-s6a.eu</idn:ace>
+                    <idn:unicode>rey-españa.eu</idn:unicode>
+                </idn:name>
+            </idn:mapping>
+        </extension>
+        <trID>
+            <svTRID>ec83d8ae5-6ad5-48e7-912d-77ed44c0824c</svTRID>
+        </trID>
+    </response>
+</epp>

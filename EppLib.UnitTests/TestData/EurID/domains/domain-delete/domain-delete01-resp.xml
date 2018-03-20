@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <response>
+        <result code="1001">
+            <msg>Command completed successfully; action pending</msg>
+        </result>
+        <trID>
+            <clTRID>Example of Delete domain with a deletion date01</clTRID>
+            <svTRID>e2a1014ae-4d99-4688-a27c-ab27208d329b</svTRID>
+        </trID>
+    </response>
+</epp>

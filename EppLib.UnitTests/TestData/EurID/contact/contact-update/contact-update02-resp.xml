@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <trID>
+            <clTRID>contact-update02</clTRID>
+            <svTRID>ebbd0c638-b93d-4a66-b754-4dc5c50c15e4</svTRID>
+        </trID>
+    </response>
+</epp>

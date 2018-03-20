@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <info>
+      <nsgroup:info xmlns:nsgroup='http://www.eurid.eu/xml/epp/nsgroup-1.1'>
+        <nsgroup:name>nsg-a-1349684934</nsgroup:name>
+        <nsgroup:authInfo>
+          <nsgroup:pw>XXXX-2MRN-MRAP-MXVR</nsgroup:pw>
+        </nsgroup:authInfo>
+      </nsgroup:info>
+    </info>
+    <clTRID>nsgroup-info03</clTRID>
+  </command>
+</epp>

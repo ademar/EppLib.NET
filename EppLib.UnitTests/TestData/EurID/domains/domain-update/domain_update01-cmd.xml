@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update>
+      <domain:update xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>testmldomupd-14092012001-01</domain:name>
+        <domain:add>
+          <domain:contact type='tech'>c31</domain:contact>
+        </domain:add>
+        <domain:rem>
+          <domain:contact type='tech'>c159</domain:contact>
+        </domain:rem>
+        <domain:chg>
+          <domain:registrant>c161</domain:registrant>
+        </domain:chg>
+      </domain:update>
+    </update>
+    <extension>
+      <domain-ext:update xmlns:domain-ext='http://www.eurid.eu/xml/epp/domain-ext-1.1'>
+        <domain-ext:add>
+          <domain-ext:contact type='onsite'>c165</domain-ext:contact>
+          <domain-ext:contact type='reseller'>c164</domain-ext:contact>
+        </domain-ext:add>
+        <domain-ext:rem>
+          <domain-ext:contact type='onsite'>c163</domain-ext:contact>
+        </domain-ext:rem>
+      </domain-ext:update>
+    </extension>
+  </command>
+</epp>

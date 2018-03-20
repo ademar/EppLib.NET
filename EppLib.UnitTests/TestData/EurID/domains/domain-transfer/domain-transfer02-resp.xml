@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:idn="http://www.eurid.eu/xml/epp/idn-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:trnData>
+                <domain:name>some-domain-nãme.eu</domain:name>
+                <domain:trStatus>serverApproved</domain:trStatus>
+                <domain:reID>a987654</domain:reID>
+                <domain:reDate>2014-09-13T20:18:21.846Z</domain:reDate>
+                <domain:acID>t000021</domain:acID>
+                <domain:acDate>2014-09-13T20:18:21.846Z</domain:acDate>
+                <domain:exDate>2016-09-13T21:59:59.999Z</domain:exDate>
+            </domain:trnData>
+        </resData>
+        <extension>
+            <idn:mapping>
+                <idn:name>
+                    <idn:ace>xn--some-domain-nme-wkb.eu</idn:ace>
+                    <idn:unicode>some-domain-nãme.eu</idn:unicode>
+                </idn:name>
+            </idn:mapping>
+        </extension>
+        <trID>
+            <svTRID>e65238b6e-4106-4605-b902-42d5d02065ce</svTRID>
+        </trID>
+    </response>
+</epp>

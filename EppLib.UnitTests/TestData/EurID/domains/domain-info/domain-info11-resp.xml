@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain-ext="http://www.eurid.eu/xml/epp/domain-ext-1.1" xmlns:dynUpdate="http://www.eurid.eu/xml/epp/dynUpdate-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xmlns:secDNS="urn:ietf:params:xml:ns:secDNS-1.1">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:infData>
+                <domain:name>secure-domain-validated-failed.eu</domain:name>
+                <domain:roid>secure-domain-validated-failed_eu-EURID</domain:roid>
+                <domain:status s="ok"/>
+                <domain:registrant>c160</domain:registrant>
+                <domain:contact type="billing">c10</domain:contact>
+                <domain:contact type="tech">c159</domain:contact>
+                <domain:ns>
+                    <domain:hostAttr>
+                        <domain:hostName>ns1.valid-domain.eu</domain:hostName>
+                    </domain:hostAttr>
+                    <domain:hostAttr>
+                        <domain:hostName>ns1.secure-domain-validated-failed.eu</domain:hostName>
+                        <domain:hostAddr ip="v4">123.45.67.89</domain:hostAddr>
+                    </domain:hostAttr>
+                    <domain:hostAttr>
+                        <domain:hostName>ns2.valid-domain.eu</domain:hostName>
+                    </domain:hostAttr>
+                </domain:ns>
+                <domain:clID>a987654</domain:clID>
+                <domain:crID>a987654</domain:crID>
+                <domain:crDate>2014-06-26T12:02:11.000Z</domain:crDate>
+                <domain:upID>a987654</domain:upID>
+                <domain:upDate>2014-09-13T11:11:31.000Z</domain:upDate>
+                <domain:exDate>2015-06-26T21:59:59.999Z</domain:exDate>
+                <domain:trDate>2013-09-09T15:40:39.000Z</domain:trDate>
+            </domain:infData>
+        </resData>
+        <extension>
+            <domain-ext:infData>
+                <domain-ext:onHold>false</domain-ext:onHold>
+                <domain-ext:quarantined>false</domain-ext:quarantined>
+                <domain-ext:suspended>false</domain-ext:suspended>
+                <domain-ext:seized>false</domain-ext:seized>
+            </domain-ext:infData>
+            <secDNS:infData>
+                <secDNS:keyData>
+                    <secDNS:flags>257</secDNS:flags>
+                    <secDNS:protocol>3</secDNS:protocol>
+                    <secDNS:alg>7</secDNS:alg>
+                    <secDNS:pubKey>AwEAAcTnEOkfH1FsT9EI2BmjMB83uDWXpSp57YHa0v6Xg60Usm3Y2Fct1emy+h0+uDstyUl5eILy9eO2eI67m5r0Lck=</secDNS:pubKey>
+                </secDNS:keyData>
+            </secDNS:infData>
+            <dynUpdate:infData>
+                <dynUpdate:updateTime>2014-09-14T10:25:35.300Z</dynUpdate:updateTime>
+                <dynUpdate:stopTime>2014-09-14T10:25:35.900Z</dynUpdate:stopTime>
+                <dynUpdate:result>1</dynUpdate:result>
+                <dynUpdate:errors>
+                    <dynUpdate:error>
+                        <dynUpdate:code>267</dynUpdate:code>
+                        <dynUpdate:arguments>
+                            <dynUpdate:argument key="nameServer">123.45.67.8#53</dynUpdate:argument>
+                            <dynUpdate:argument key="hostName">secure-domain-validated-failed.eu.</dynUpdate:argument>
+                            <dynUpdate:argument key="resourceRecordType">DNSKEY</dynUpdate:argument>
+                        </dynUpdate:arguments>
+                        <dynUpdate:message>No type ${resourceRecordType} resource record found for host name ${hostName} on name server ${nameServer}</dynUpdate:message>
+                    </dynUpdate:error>
+                    <dynUpdate:error>
+                        <dynUpdate:code>258</dynUpdate:code>
+                        <dynUpdate:arguments>
+                            <dynUpdate:argument key="nameServer">123.45.67.8#53</dynUpdate:argument>
+                            <dynUpdate:argument key="keyTag">6615</dynUpdate:argument>
+                        </dynUpdate:arguments>
+                        <dynUpdate:message>No matching DNSKEY with tag ${keyTag} on name server ${nameServer}</dynUpdate:message>
+                    </dynUpdate:error>
+                    <dynUpdate:error>
+                        <dynUpdate:code>267</dynUpdate:code>
+                        <dynUpdate:arguments>
+                            <dynUpdate:argument key="nameServer">2001:cafe::babe#53</dynUpdate:argument>
+                            <dynUpdate:argument key="hostName">secure-domain-validated-failed.eu.</dynUpdate:argument>
+                            <dynUpdate:argument key="resourceRecordType">DNSKEY</dynUpdate:argument>
+                        </dynUpdate:arguments>
+                        <dynUpdate:message>No type ${resourceRecordType} resource record found for host name ${hostName} on name server ${nameServer}</dynUpdate:message>
+                    </dynUpdate:error>
+                    <dynUpdate:error>
+                        <dynUpdate:code>258</dynUpdate:code>
+                        <dynUpdate:arguments>
+                            <dynUpdate:argument key="nameServer">2001:cafe::babe#53</dynUpdate:argument>
+                            <dynUpdate:argument key="keyTag">6615</dynUpdate:argument>
+                        </dynUpdate:arguments>
+                        <dynUpdate:message>No matching DNSKEY with tag ${keyTag} on name server ${nameServer}</dynUpdate:message>
+                    </dynUpdate:error>
+                </dynUpdate:errors>
+            </dynUpdate:infData>
+        </extension>
+        <trID>
+            <clTRID>domain-info-example11</clTRID>
+            <svTRID>e4c5ccbf9-6b09-4534-b120-fbdfaea64178</svTRID>
+        </trID>
+    </response>
+</epp>

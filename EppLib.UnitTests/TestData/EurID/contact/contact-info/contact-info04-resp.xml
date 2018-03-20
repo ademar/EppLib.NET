@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:contact-ext="http://www.eurid.eu/xml/epp/contact-ext-1.1" xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <contact:infData>
+                <contact:id>c161</contact:id>
+                <contact:roid>c161-EURID</contact:roid>
+                <contact:status s="ok"/>
+                <contact:postalInfo type="loc">
+                    <contact:name>Ann Ployee</contact:name>
+                    <contact:org>ACME Intercontinental</contact:org>
+                    <contact:addr>
+                        <contact:street>Main Street 122</contact:street>
+                        <contact:street>Building 5</contact:street>
+                        <contact:street>P.O. Box 123</contact:street>
+                        <contact:city>Nowhere City</contact:city>
+                        <contact:pc>1234</contact:pc>
+                        <contact:cc>BE</contact:cc>
+                    </contact:addr>
+                </contact:postalInfo>
+                <contact:voice>+32.123456789</contact:voice>
+                <contact:fax>+32.123456790</contact:fax>
+                <contact:email>nobody@example.com</contact:email>
+                <contact:clID>#non-disclosed#</contact:clID>
+                <contact:crID>#non-disclosed#</contact:crID>
+                <contact:crDate>2014-09-13T11:31:29.526Z</contact:crDate>
+                <contact:upDate>2014-09-13T11:31:29.000Z</contact:upDate>
+            </contact:infData>
+        </resData>
+        <extension>
+            <contact-ext:infData>
+                <contact-ext:type>registrant</contact-ext:type>
+                <contact-ext:vat>VAT1234567890</contact-ext:vat>
+                <contact-ext:lang>en</contact-ext:lang>
+            </contact-ext:infData>
+        </extension>
+        <trID>
+            <clTRID>contact-info04</clTRID>
+            <svTRID>ed7558825-3746-4901-8d6e-9b0a0c7aaf76</svTRID>
+        </trID>
+    </response>
+</epp>

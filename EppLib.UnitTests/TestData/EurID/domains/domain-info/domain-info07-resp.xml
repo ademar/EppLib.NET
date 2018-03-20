@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+    <response>
+        <result code="1001">
+            <msg>Command completed successfully; action pending</msg>
+        </result>
+        <resData>
+            <domain:trnData>
+                <domain:name>domain-transfer-pending.eu</domain:name>
+                <domain:trStatus>pending</domain:trStatus>
+                <domain:reID>a987654</domain:reID>
+                <domain:reDate>2014-09-14T15:51:18.754Z</domain:reDate>
+                <domain:acID>eurid.eu</domain:acID>
+                <domain:acDate>2014-09-19T15:51:18.754Z</domain:acDate>
+                <domain:exDate>2016-09-13T21:59:59.999Z</domain:exDate>
+            </domain:trnData>
+        </resData>
+        <trID>
+            <clTRID>domain-info-example07</clTRID>
+            <svTRID>e4a1c7049-fd43-42d4-badb-52ba8c101521</svTRID>
+        </trID>
+    </response>
+</epp>

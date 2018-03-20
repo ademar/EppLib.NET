@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <response>
+        <result code="1300">
+            <msg>Command completed successfully; no messages</msg>
+        </result>
+        <trID>
+            <clTRID>poll01-req</clTRID>
+            <svTRID>e17fcbc4e-7094-405c-b107-66aa7e3f677d</svTRID>
+        </trID>
+    </response>
+</epp>

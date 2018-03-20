@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update>
+      <domain:update xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+        <domain:name>testmldomupd-14092012001-04</domain:name>
+      </domain:update>
+    </update>
+    <extension>
+      <secDNS:update xmlns:secDNS="urn:ietf:params:xml:ns:secDNS-1.1">
+         <secDNS:add>
+        <secDNS:keyData>
+            <secDNS:flags>256</secDNS:flags>
+            <secDNS:protocol>3</secDNS:protocol>
+            <secDNS:alg>5</secDNS:alg>
+            <secDNS:pubKey>AwEAAaW+suUu87YF+Hm3gHqyjvQbSSf8JxcP9+pWZGpqQtE1ZXJT9yIg i8hNM0mO7eIGjlHA9cXf/z5HESEA/vHx9F/HsnX7qsXd7dRfsd88VKo4 EkB0rPGK4jvw9BskJDioFZUXKPrmLXA/N01FKRZ5MWe5pUgNXnKa0yen TQgN5Paf</secDNS:pubKey>
+          </secDNS:keyData>
+        <secDNS:keyData>
+            <secDNS:flags>257</secDNS:flags>
+            <secDNS:protocol>3</secDNS:protocol>
+            <secDNS:alg>5</secDNS:alg>
+            <secDNS:pubKey>AwEAAe+ltJnnq/M0ulKegvvrXPrMjEomU0h3n6Wiz/1Is4yAP7rHm/xh dNGjCbEq0tU+06cOzwPx+F8sJnEiRRu8hGgUu3BND0fu7RPQ9DQE0Wgu 6iHO0QB5g6iRpES0uYhzPpu7VVP8ln5nanKbl/wlWwOGZyd7ZebG9CH2 RK5PAFtF</secDNS:pubKey>
+          </secDNS:keyData>
+        </secDNS:add>
+      </secDNS:update>
+    </extension>
+    <clTRID>domain-update-add-dnsSec11</clTRID>
+  </command>
+</epp>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+      <contact:update>
+        <contact:id>c159</contact:id>
+        <contact:chg>
+          <contact:postalInfo type='loc'>
+            <contact:addr>
+              <contact:street>Garden Street 45</contact:street>
+              <contact:street>Tulip Building</contact:street>
+              <contact:street>P.O. Box 123</contact:street>
+              <contact:city>Belleville</contact:city>
+              <contact:sp>Central County</contact:sp>
+              <contact:pc>2345</contact:pc>
+              <contact:cc>LU</contact:cc>
+            </contact:addr>
+          </contact:postalInfo>
+        </contact:chg>
+      </contact:update>
+    </update>
+    <extension>
+      <contact-ext:update xmlns:contact-ext='http://www.eurid.eu/xml/epp/contact-ext-1.1'>
+        <contact-ext:chg/>
+      </contact-ext:update>
+    </extension>
+    <clTRID>contact-update01</clTRID>
+  </command>
+</epp>

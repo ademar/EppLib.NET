@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <update xmlns:keygroup="http://www.eurid.eu/xml/epp/keygroup-1.1">
+      <keygroup:update>
+        <keygroup:name>keygroup-1350898304165</keygroup:name>
+        <keygroup:keyData>
+          <keygroup:flags>256</keygroup:flags>
+          <keygroup:protocol>3</keygroup:protocol>
+          <keygroup:alg>7</keygroup:alg>
+          <keygroup:pubKey>AwEAAdbzku0qyxDmfz+SL004uyKeuunGWwSqqi50+raR5SSevi31N/KqKqBi0K75zg3dUkEKxZGSGW1DJ5+jpNNH9LfgNQZIlaes3Ckfi2FmpQYIWa0ftbZkY6fqXlN6oK2faT2+wqspzeb7+AhpVvQcLe/1iOeqit+oNzgSBDe0JKWD</keygroup:pubKey>
+        </keygroup:keyData>
+      </keygroup:update>
+    </update>
+    <clTRID>1234567890123456789012345678901234567890123456789012345678901234</clTRID>
+  </command>
+</epp>
