@@ -34,7 +34,7 @@ namespace EppLib
     /// <summary>
     /// Encapsulates the TCP transport
     /// </summary>
-    public class TcpTransport : IDisposable
+    public class TcpTransport : ITransport
     {
         private SslStream stream;
 

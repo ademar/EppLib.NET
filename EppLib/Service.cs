@@ -23,9 +23,9 @@ namespace EppLib
 	/// </summary>
 	public class Service
 	{
-		private readonly TcpTransport transport;
+		private readonly ITransport transport;
 
-		public Service(TcpTransport transport)
+		public Service(ITransport transport)
 		{
 			this.transport = transport;
 		}
@@ -34,9 +34,9 @@ namespace EppLib
 		/// <summary>
 		/// Connects to the registry end point
 		/// </summary>
-        public void Connect(SslProtocols sslProtocols = SslProtocols.Tls)
+		public void Connect(SslProtocols sslProtocols = SslProtocols.Tls)
 		{
-            transport.Connect(sslProtocols);
+			transport.Connect(sslProtocols);
 			transport.Read();
 
 		}
