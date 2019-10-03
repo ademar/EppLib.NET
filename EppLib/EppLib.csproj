@@ -202,7 +202,6 @@
     <Compile Include="TcpTransport.cs" />
     <Compile Include="IDebugger.cs" />
     <Compile Include="SimpleLogger.cs" />
-    <Compile Include="WebConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
