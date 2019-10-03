@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:poll="http://www.eurid.eu/xml/epp/poll-1.1">
-  <command>
-    <poll op="ack" msgID="c8ef9775-8ca3-4c04-8ce4-d201baf86ab0"/>
-    <clTRID>poll02-ack</clTRID>
-  </command>
-</epp>
